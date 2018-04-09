@@ -1,0 +1,5 @@
+module CCplex [system] {
+  header "/Users/pavelwork/Applications/IBM/ILOG/CPLEX_Studio1271/cplex/include/ilcplex/cplex.h"
+  link "cplex"
+  export *
+}

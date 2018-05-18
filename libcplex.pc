@@ -1,0 +1,9 @@
+Name: cplex
+Description: Cplex c library
+Url: 
+Version: 12.71
+Requires: 
+Requires.private: 
+Cflags: -I/Users/pavelwork/Applications/IBM/ILOG/CPLEX_Studio1271/cplex/include
+Libs: -L/Users/pavelwork/Applications/IBM/ILOG/CPLEX_Studio1271/cplex/lib/x86-64_osx/static_pic -lcplex
+

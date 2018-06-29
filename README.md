@@ -1,5 +1,5 @@
 # CCplex
 
-A description of this package.
+This package provides modulemap for Cplex. It just contains paths to cplex library.
 
-Copy libcplex.cp to pkg-config directory 
+Remember to copy libcplex.cp to pkg-config directory 

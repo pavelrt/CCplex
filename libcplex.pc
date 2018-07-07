@@ -1,9 +1,17 @@
+# This file goes to pkg-config directory
+# On OS X: /usr/local/lib/pkgconfig
+# On linux: /usr/lib/pkgconfig
+
 Name: cplex
 Description: Cplex c library
 Url: 
-Version: 12.71
+Version: 12.7.1
 Requires: 
 Requires.private: 
-Cflags: -I/Users/pavelwork/Applications/IBM/ILOG/CPLEX_Studio1271/cplex/include
-Libs: -L/Users/pavelwork/Applications/IBM/ILOG/CPLEX_Studio1271/cplex/lib/x86-64_osx/static_pic -lcplex
+Cflags: -I/usr/local/opt/ibm/ILOG/CPLEX_Studio/cplex/include
 
+# OS X libs
+Libs: -L/usr/local/opt/ibm/ILOG/CPLEX_Studio/cplex/lib/x86-64_osx/static_pic -lcplex
+
+# Linux libs
+# Libs: -L/usr/local/opt/ibm/ILOG/CPLEX_Studio/cplex/lib/x86-64_linux/static_pic -lcplex
